@@ -3,6 +3,11 @@
 * Candidate: Jonathan Martínez López.
 * Date: 24/08/2017.
 
+# Stack
+
+* [ReactJS](https://facebook.github.io/react/)
+* [Create React App](https://github.com/facebookincubator/create-react-app)
+
 To run the app:
 ```javascript
 npm install -g create-react-app
