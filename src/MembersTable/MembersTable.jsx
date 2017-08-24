@@ -7,10 +7,14 @@ export default class MembersTable extends Component {
     super(props);
 
     this.state = {sortedMembers: this.props.members};
+
+    //reorder logic
     this.orderByMultiplierState = true;
     this.orderByMultiplier = this.orderByMultiplier.bind(this);
+
     this.orderByAreaState = true;
     this.orderByArea = this.orderByArea.bind(this);
+    
     this.orderByColorState = true;
     this.orderByColor = this.orderByColor.bind(this);
   }
